@@ -1,0 +1,13 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+sxm/__init__.py
+sxm/items.py
+sxm/middlewares.py
+sxm/pipelines.py
+sxm/settings.py
+sxm/spiders/__init__.py
+sxm/spiders/sxm_spider.py

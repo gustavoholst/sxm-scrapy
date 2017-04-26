@@ -3,7 +3,7 @@ import json
 import time
 
 
-class SXM_Spider(scrapy.Spider):
+class QuotesSpider(scrapy.Spider):
     name = "sxm"
     
     sites=[]
