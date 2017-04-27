@@ -1,9 +1,0 @@
-{"channel": "BPM", "title": "#NervoNation", "time": 1493180963.4104156, "artist": "@nervomusic @DJDannyAvila", "albumart": "http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_51.jpg"}
-{"channel": "Electric Area", "title": "#PlanetPerfecto #ElectricArea", "time": 1493180963.472905, "artist": "@PaulOakenfold @sxmElectro", "albumart": "http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg"}
-{"channel": "SiriusXM Hits 1", "title": "Shape Of You", "time": 1493180963.4885592, "artist": "Ed Sheeran", "albumart": "http://www.siriusxm.com/albumart/Live/0400/edsheeran_58815DB6_m.jpg"}
-{"title": "#PlanetPerfecto #ElectricArea", "channel": "Electric Area", "time": 1493181230.8257773, "albumart": "http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg", "artist": "@PaulOakenfold @sxmElectro"}
-{"title": "Shape Of You", "channel": "SiriusXM Hits 1", "time": 1493181230.8337817, "albumart": "http://www.siriusxm.com/albumart/Live/0430/edsheeran_58815DB6_m.jpg", "artist": "Ed Sheeran"}
-{"title": "#NervoNation", "channel": "BPM", "time": 1493181230.8427925, "albumart": "http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_51.jpg", "artist": "@nervomusic @DJDannyAvila"}
-{"albumart": "http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_51.jpg", "channel": "BPM", "title": "#NervoNation", "time": 1493181753.5008864, "artist": "@nervomusic @DJDannyAvila"}
-{"albumart": "http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg", "channel": "Electric Area", "title": "#PlanetPerfecto #ElectricArea", "time": 1493181753.533906, "artist": "@PaulOakenfold @sxmElectro"}
-{"albumart": "http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_2.jpg", "channel": "SiriusXM Hits 1", "title": "siriusxm.com/hits1", "time": 1493181753.549875, "artist": "Wutchuwant Crew"}
