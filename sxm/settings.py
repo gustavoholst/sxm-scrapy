@@ -24,10 +24,13 @@ ROBOTSTXT_OBEY = True
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
-FEED_URI = 'file://C:/Users/ringq/Documents/Programs/SXM Scrape/sxm_scrapy/sxm-scrapy/ssxm_log.jl'
-FEED_FORMAT = 'jsonlines'
+FEED_URI = 'file://C:/Users/ringq/Documents/Programs/SXM Scrape/sxm_scrapy/sxm-scrapy/sxm_songs.json'
+FEED_FORMAT = 'json'
 FEED_EXPORT_ENCODING = 'utf-8'
 FEED_EXPORT_FIELDS = ['channel', 'artist', 'title', 'albumart', 'time']
+
+LOG_LEVEL = 'WARNING'
+LOG_FILE = 'sxm_scrape.log'
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
@@ -63,9 +66,9 @@ FEED_EXPORT_FIELDS = ['channel', 'artist', 'title', 'albumart', 'time']
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
-#    'scrapy.extensions.telnet.TelnetConsole': None,
-#}
+EXTENSIONS = {
+   'scrapy.extensions.telnet.TelnetConsole': None,
+}
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html

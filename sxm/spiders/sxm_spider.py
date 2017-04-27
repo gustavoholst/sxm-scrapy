@@ -32,7 +32,7 @@ class SXM_Spider(scrapy.Spider):
             if item['encrypted'] == False and item['type'] == 'IMAGE' and not item['url'] == '':
                 albumart.append(baseurl + item['url'])
 
-        yield {
+        return {
             'channel':channel,
             'artist':artist,
             'title':title,
