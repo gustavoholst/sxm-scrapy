@@ -1,1 +1,1 @@
-scrapy crawl sxm
+python sxm\execute_scrape.py
