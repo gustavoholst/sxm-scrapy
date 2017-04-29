@@ -40,10 +40,10 @@ def clear_json():
 def update_log(song):
 	print('\n')
 	log_path = os.path.dirname(os.path.realpath(__file__)) + '\\channel_logs\\' + song['channel'] + '_log.log'
-	log_keys = ['artist','title','albumart','time']
-	song_only = {key: song[key] for key in log_keys}
+	# log_keys = ['artist','title','albumart','time']
+	# song_only = {key: song[key] for key in log_keys}
 	if os.path.isfile(log_path):
-		log = pandas.read_csv(log_path,index_col=0)
+		log = pandas.read_csv(log_path,index_col=0, encoding = 'utf-8')
 		print(song['channel'], 'table loaded from', log_path)
 		nrows = len(log.index)
 		prev_songs = []
@@ -56,13 +56,13 @@ def update_log(song):
 		if match == 1:
 			print('Song already logged!')
 		else:
-			log = log.append(song_only,ignore_index = True)
+			log = log.append(song,ignore_index = True)
 			print('Song Added!')
-			log.to_csv(log_path)
+			log.to_csv(log_path, encoding = 'utf-8')
 	else:
-		log = pandas.DataFrame(data=None, columns = log_keys, index = None)
-		log = log.append(song_only,ignore_index = True)
-		log.to_csv(log_path)
+		log = pandas.DataFrame(data=None, columns = ['channel','artist','title','albumart','time'], index = None)
+		log = log.append(song,ignore_index = True)
+		log.to_csv(log_path, encoding = 'utf-8')
 		print(song['channel'], 'table created @', log_path)
 
 

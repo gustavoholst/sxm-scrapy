@@ -1,4 +1,4 @@
-,artist,title,albumart,time
+,artist,title,albumart,time,channel
 0,@MatomaOfficial @sxmElectro,#GlowRadio,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493352723.3759172
 1,@NicoleMoudaber @sxmElectro,#InTheMood #ElectricArea,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493355688.349049
 2,@MarkBrownDJ @sxmElectro,#Cr2LivenDirect #ElectricArea,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493359228.2678974
@@ -91,5 +91,6 @@
 89,@Hardwell @sxmElectro,#HOA314 #TiestoSXM,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493391868.3270295
 90,Purple Disco Machine,Walls,http://www.siriusxm.com/albumart/Live/1530/purplediscom_57FF6553_m.jpg,1493394988.315773
 91,@SJ_RM @sxmElectro,#SBNradio #ElectricArea,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493395408.3359234
-92,@Tritonal @sxmElectro,#Tritonia #ElectricArea,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493399008.3177774
-93,@atbandre @sxmElectro,#TheCookout #ElectricArea,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493402848.2605639
+92,@Tritonal @sxmElectro,#Tritonia #ElectricArea,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493399008.3177776
+93,@atbandre @sxmElectro,#TheCookout #ElectricArea,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493402848.260564
+94,@djMarkKnight @sxmElectro,#ToolroomRadio,http://www.siriusxm.com/albumart/Live/Default/DefaultMDS_m_52.jpg,1493442214.0544496

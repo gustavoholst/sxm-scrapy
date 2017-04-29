@@ -30,7 +30,7 @@ FEED_EXPORT_ENCODING = 'utf-8'
 FEED_EXPORT_FIELDS = ['channel', 'artist', 'title', 'albumart', 'time']
 
 LOG_LEVEL = 'WARNING'
-LOG_FILE = 'sxm_scrape.log'
+#LOG_FILE = 'sxm_scrape.log'
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay

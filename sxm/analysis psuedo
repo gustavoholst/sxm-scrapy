@@ -1,0 +1,26 @@
+psuedo
+
+list files in logs dir
+for each file
+	read log into single df
+functions to get different properties
+	recent: n last played by channel (n=1 for "now" w/timestamp)
+		create df of selected channel
+		return last n lines of sub df
+	top: n most popular (plays) by channel since
+		create df of selected channel
+		create df of timestamps > now - timeframe
+		count instances of song + artist combo
+		sort descending
+		return top n
+	new: n newest songs by channel
+		create df of selected channel
+		eliminate duplicates, keeping only first instance of song
+		sort descending timestamp
+		return top n
+	hot: n most trendy (increasing plays/time) by channel
+		create df of selected channel
+		separate df into 12? hr segments
+		count instanes of each song per segment
+		find slope of last few points
+		sort by slope and pick n
