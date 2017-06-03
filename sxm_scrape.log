@@ -1,0 +1,1899 @@
+2017-04-28 00:41:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-04:41:37> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 00:41:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-04:41:37> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 00:43:32 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-04:43:22> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 00:43:32 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-04:43:22> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:04:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-05:04:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:04:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-05:04:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:06:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-05:06:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:06:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-05:06:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:14:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-05:14:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-05:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-05:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:31:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-05:31:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:36:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-05:36:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:38:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-05:38:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-05:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-05:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-05:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-05:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:54:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-05:54:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:57:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-05:57:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 01:59:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-05:59:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:03:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-06:03:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:07:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-06:07:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:08:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-06:08:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:08:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-06:08:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:12:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-06:12:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:17:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-06:17:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-06:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-06:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:19:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-06:19:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:41:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-06:41:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:42:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-06:42:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 02:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-06:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:06:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-07:06:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:10:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:10:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:11:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:11:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:12:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-07:12:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:13:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:13:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:13:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-07:13:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:15:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:15:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:15:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-07:15:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:22:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:22:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:22:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-07:22:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:27:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:27:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-07:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:47:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-07:47:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:51:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:51:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-07:53:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:55:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-07:55:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:56:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:56:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:56:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-07:56:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 03:59:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-07:59:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:07:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-08:07:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:11:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-08:11:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:13:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-08:13:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:14:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-08:14:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:16:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-08:16:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:16:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-08:16:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:22:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-08:22:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:27:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-08:27:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:30:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-08:30:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:40:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-08:40:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:40:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-08:40:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:48:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-08:48:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-08:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-08:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-08:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-08:53:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 04:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-08:53:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:01:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-09:01:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:03:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-09:03:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:08:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-09:08:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:08:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-09:08:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:19:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-09:19:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:20:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-09:20:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:20:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-09:20:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:36:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-09:36:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-09:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:46:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-09:46:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:46:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-09:46:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:49:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-09:49:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:58:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-09:58:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:59:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-09:59:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 05:59:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-09:59:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:01:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-10:01:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:09:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-10:09:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:10:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-10:10:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:11:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-10:11:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:12:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-10:12:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:12:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-10:12:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-10:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-10:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:29:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-10:29:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:40:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-10:40:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:40:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-10:40:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-10:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:48:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-10:48:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:49:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-10:49:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 06:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-10:53:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:03:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-11:03:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:03:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-11:03:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:09:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-11:09:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:09:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-11:09:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:23:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-11:23:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:23:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-11:23:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:26:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-11:26:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:26:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-11:26:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:33:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-11:33:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:42:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-11:42:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:42:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-11:42:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-11:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-11:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-11:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-11:53:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 07:56:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-11:56:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:01:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-12:01:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:01:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-12:01:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:07:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-12:07:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:08:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-12:08:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:15:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-12:15:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:16:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-12:16:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:28:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-12:28:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:29:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-12:29:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:30:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-12:30:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:30:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-12:30:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:37:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-12:37:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:47:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-12:47:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:48:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-12:48:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:48:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-12:48:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 08:49:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-12:49:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:03:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-13:03:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:03:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:03:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:03:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-13:03:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:04:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-13:04:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:04:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:04:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:05:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-13:05:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:06:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-13:06:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:06:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:06:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:07:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-13:07:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:07:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:07:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:08:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-13:08:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:08:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-13:08:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:10:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:10:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:10:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-13:10:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:19:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:19:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:41:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-13:41:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:41:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:41:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:58:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-13:58:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:58:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-13:58:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 09:59:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-13:59:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:07:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:07:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:12:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:12:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:12:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-14:12:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:15:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:15:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:15:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:15:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:16:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:16:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:17:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:17:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:17:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-14:17:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:24:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:24:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:31:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:31:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:31:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:31:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:32:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:32:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:32:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-14:32:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:38:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:38:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:39:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-14:39:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:39:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:39:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:40:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:40:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:41:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:41:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:42:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:42:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:47:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:47:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:54:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:54:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:54:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:54:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:55:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:57:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:57:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:58:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-14:58:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 10:58:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-14:58:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:04:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:04:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:11:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:11:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:11:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-15:11:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:15:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:15:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:15:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-15:15:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:16:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:16:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:16:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-15:16:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:17:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-15:17:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:24:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:24:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:24:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-15:24:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:42:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-15:42:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:42:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:42:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:43:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-15:43:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-15:44:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:51:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:51:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 11:59:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-15:59:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:12:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-16:12:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:12:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-16:12:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:17:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-16:17:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:17:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-16:17:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:18:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-16:18:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:25:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-16:25:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-16:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-16:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:51:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-16:51:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-16:55:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 12:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-16:55:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:16:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-17:16:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:19:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-17:19:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:29:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-17:29:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:46:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-17:46:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:47:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-17:47:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:48:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-17:48:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:50:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-17:50:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:54:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-17:54:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 13:54:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-17:54:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:06:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:06:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:07:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-18:07:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:08:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:08:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:13:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:13:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:17:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:17:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:20:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-18:20:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:20:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:20:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:21:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-18:21:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:22:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-18:22:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:22:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:22:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:22:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:22:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:24:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:24:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:24:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:24:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:26:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-18:26:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:26:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:26:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:27:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:27:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:30:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:30:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:31:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:31:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:31:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-18:31:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:32:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:32:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:41:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:41:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:45:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-18:45:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:45:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:45:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:46:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:46:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:47:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:47:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:51:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-18:51:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-18:55:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 14:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-18:55:17> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-28 16:56:23 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET http://www.siriusxm.com/robots.txt>: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-28 16:56:23 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-28-20:56:13>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-28 16:56:23 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-28-20:56:13>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-28 16:56:23 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-28-20:56:13>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:45:50 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET http://www.siriusxm.com/robots.txt>: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:45:50 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-29-04:45:39>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:45:50 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-29-04:45:39>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:45:50 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-29-04:45:39>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:47:35 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET http://www.siriusxm.com/robots.txt>: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:47:35 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-29-04:47:25>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:47:35 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-29-04:47:25>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:47:35 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-29-04:47:25>
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: www.siriusxm.com.
+2017-04-29 00:48:35 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/siriushits1/timestamp/04-29-04:48:25> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-29 00:48:35 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/thebeat/timestamp/04-29-04:48:25> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
+2017-04-29 00:48:35 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.siriusxm.com/metadata/pdt/en-us/json/channels/area33/timestamp/04-29-04:48:25> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\ringq\Documents\Anaconda\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ringq\Documents\Programs\SXM Scrape\sxm_scrapy\sxm-scrapy\sxm\spiders\sxm_spider.py", line 25, in parse
+    artist = jsonresponse['channelMetadataResponse']['metaData']["currentEvent"]['artists']['name']
+KeyError: 'metaData'
