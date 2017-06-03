@@ -29,7 +29,9 @@ def read_log():
 		log.to_csv(log_path, encoding = 'utf-8')
 		print(song['channel'], 'table created @', log_path)
 
-
+def get_recent(channel, n):
+	chan_df = df.loc[df['channel'] == channel]
+	
 def main():
 	"""Execuse scraping activities
 
