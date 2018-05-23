@@ -24,7 +24,7 @@ ROBOTSTXT_OBEY = True
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
-FEED_URI = 'file://C:/Users/ringq/Documents/Programs/SXM Scrape/sxm_scrapy/sxm-scrapy/sxm_songs.json'
+FEED_URI = 'file://D:/Documents/Websites/SXM/sxm-scrapy/sxm/sxm_songs.json'
 FEED_FORMAT = 'json'
 FEED_EXPORT_ENCODING = 'utf-8'
 FEED_EXPORT_FIELDS = ['channel', 'artist', 'title', 'albumart', 'time']

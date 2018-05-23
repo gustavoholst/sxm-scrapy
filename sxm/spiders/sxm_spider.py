@@ -9,8 +9,9 @@ class SXM_Spider(scrapy.Spider):
     sites=[]
     channels = [
         "thebeat",
-        "area33",
-        "siriushits1"
+        #"diplosrevolution",
+        "siriushits1",
+        "altnation"
     ]
     t = time.time()-10
     timestamp=time.strftime("%m-%d-%H:%M:%S", time.gmtime(t))
