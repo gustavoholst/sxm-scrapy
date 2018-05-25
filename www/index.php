@@ -42,5 +42,12 @@
 
   	<br><input type="submit" value="Get Data">
   </form>
+
+
+<?php
+// outputs e.g. 'Last modified: March 04 1998 20:43:59.'
+echo "Last modified: " . date ("d F Y H:i:s.", filemtime($_SERVER['/sxm/index.php']));
+?>
+
 </body>
 </html>
