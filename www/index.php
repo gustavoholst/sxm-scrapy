@@ -72,15 +72,24 @@
   ?>
 
   <!--Sort array based on sorting selection and echo selected # of entries-->
-  <table style="width:60%">
-    <tr>  
-      <?php
-        for ($i=0; $i < sizeof($logArray[0]); $i++) { 
-          echo "<th>".$logArray[0][i]."</th>";
+  <?php
+    if (isset($_POST['channel'])){
+      $rows = sizeof($logArray);
+      $cols = sizeof($logArray[0]);
+      echo '<center><table style="width:80%">';
+
+        for ($i=0; $i < $_POST['quantity']; $i++) { 
+          echo "<tr>";
+          for ($j=0; $j < $cols; $j++) { 
+            echo "<th>".$logArray[$i][$j]."</th>";
+          }
+          echo "</tr>";
         }
-      ?>
-    </tr>
-  </table>
+          
+      echo "</tr>";
+      echo "</table></center>";
+    }
+  ?>
   <!--Print date of last update to webpage-->
   <br>
   <br>
