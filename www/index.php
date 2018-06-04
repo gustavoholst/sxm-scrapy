@@ -61,8 +61,10 @@
       $logArray = array();
       $filePath = $logDir.$_POST['channel']."_log.log";
       if (($handle = fopen($filePath, "r")) !== FALSE) {
+          $headers = fgetcsv($handle, 1000, ",");
           while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-              array_push($logArray, $data);
+              $logArray[]=array_combine($headers, $data);
+              //array_push($logArray, $data);
           }
           echo "There are ".sizeof($logArray)." log entries for ".$_POST['channel'].".<br>";
           echo "<br> File read from: $filePath <br>";
@@ -74,36 +76,37 @@
   <!--Create table based on sorting/filtering-->
   <?php
     if (isset($_POST['channel'])){
-      $rows = sizeof($logArray);
-      $cols = sizeof($logArray[0]);
-      $headers = $logArray[0];
+      if ($_POST['quantity'] > sizeof($logArray)) {
+        $nrows = sizeof($logArray);
+      }
+      else {
+        $nrows = $_POST['quantity'];
+      }
 
       //Create table
       echo '<center><table style="width:80%">';
+      
       echo "\n  <tr>";
-      for ($i=0; $i < $cols; $i++) { 
-        echo "\n    <th>";
-        echo $logArray[0][$i];
-        echo "</th>";
+      foreach($headers as $val) {
+        echo "\n    <th>".$val."</th>";
       }
       echo "\n  </tr>";
 
-      for ($i=1; $i < $_POST['quantity']; $i++) { 
+      for ($i=1; $i < $nrows; $i++) { 
         echo "\n  <tr>";
-        for ($j=0; $j < $cols; $j++) { 
+        foreach ($logArray[$i] as $key => $value) {
           echo "\n    <td>";
-          if ($headers[$j] === "albumart") {
-             echo '<a href="'.$logArray[$i][$j].'"><img src="'.$logArray[$i][$j].'" alt="Album Art" style="width:60px;height:60px;border:0;"></a>';
+          if ($key === "albumart") {
+            echo '<a href="'.$value.'"><img src="'.$value.'" alt="Album Art" style="width:60px;height:60px;border:0;"></a>'; 
           }
-          elseif ($headers[$j] === "time") {
-            echo date("D M j",$logArray[$i][$j])."<br>".date("G:i:s",$logArray[$i][$j]);
+          elseif ($key === "time") {
+            echo date("D j M Y",$value)."<br>".date("G:i:s",$value);
           }
-
           else {
-            echo $logArray[$i][$j];
-          }
+            echo $value;
+          }          
           echo "</td>";
-        }
+        } 
         echo "\n  </tr>";
       }
       echo "</table></center>";
