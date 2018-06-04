@@ -71,22 +71,41 @@
     }
   ?>
 
-  <!--Sort array based on sorting selection and echo selected # of entries-->
+  <!--Create table based on sorting/filtering-->
   <?php
     if (isset($_POST['channel'])){
       $rows = sizeof($logArray);
       $cols = sizeof($logArray[0]);
-      echo '<center><table style="width:80%">';
+      $headers = $logArray[0];
 
-        for ($i=0; $i < $_POST['quantity']; $i++) { 
-          echo "<tr>";
-          for ($j=0; $j < $cols; $j++) { 
-            echo "<th>".$logArray[$i][$j]."</th>";
+      //Create table
+      echo '<center><table style="width:80%">';
+      echo "\n  <tr>";
+      for ($i=0; $i < $cols; $i++) { 
+        echo "\n    <th>";
+        echo $logArray[0][$i];
+        echo "</th>";
+      }
+      echo "\n  </tr>";
+
+      for ($i=1; $i < $_POST['quantity']; $i++) { 
+        echo "\n  <tr>";
+        for ($j=0; $j < $cols; $j++) { 
+          echo "\n    <td>";
+          if ($headers[$j] === "albumart") {
+             echo '<a href="'.$logArray[$i][$j].'"><img src="'.$logArray[$i][$j].'" alt="Album Art" style="width:60px;height:60px;border:0;"></a>';
           }
-          echo "</tr>";
+          elseif ($headers[$j] === "time") {
+            echo date("D M j",$logArray[$i][$j])."<br>".date("G:i:s",$logArray[$i][$j]);
+          }
+
+          else {
+            echo $logArray[$i][$j];
+          }
+          echo "</td>";
         }
-          
-      echo "</tr>";
+        echo "\n  </tr>";
+      }
       echo "</table></center>";
     }
   ?>
@@ -94,19 +113,11 @@
   <br>
   <br>
   <footer>
-    <center>
     <?php
       // outputs e.g. 'Last modified: March 04 1998 20:43:59.'
       echo "Last modified: " . date ("d F Y H:i:s.", filemtime('D:/Documents/Websites/SXM/sxm-scrapy/www/index.php'));
     ?>
-    </center>
   </footer>
   <br>
-
-
-  
-
-
-
 </body>
 </html>
