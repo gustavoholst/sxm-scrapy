@@ -113,6 +113,8 @@
         $nrows = $_POST['quantity'];
       }
 
+      $order = array('albumart','title','artist','time','channel','');
+
       //Sort and filter data
       $sorted = array_orderby($logArray, '', SORT_DESC);
       $sliced = array_slice($sorted, 0, $nrows);
@@ -121,7 +123,8 @@
       echo '<center><table style="width:80%">';
       
       echo "\n  <tr>";
-      foreach($headers as $val) 
+      
+      foreach($order as $val) 
       {
         echo "\n    <th>".$val."</th>";
       }
@@ -129,8 +132,9 @@
 
       for ($i=1; $i < $nrows; $i++) 
       {
+        $orderedRow = array_replace(array_flip($order), $sliced[$i]);
         echo "\n  <tr>";
-        foreach ($sliced[$i] as $key => $value) 
+        foreach ($orderedRow as $key => $value) 
         {
           echo "\n    <td>";
           if ($key === "albumart") 
