@@ -113,14 +113,15 @@
         $nrows = $_POST['quantity'];
       }
 
-      $order = array('albumart','title','artist','time','channel','');
+      $order = array('albumart','title','artist','time');
+      $exclude_list = array('channel','');
 
       //Sort and filter data
       $sorted = array_orderby($logArray, '', SORT_DESC);
       $sliced = array_slice($sorted, 0, $nrows);
 
       //Create table
-      echo '<center><table style="width:80%">';
+      echo '<center><table>';
       
       echo "\n  <tr>";
       
@@ -136,20 +137,21 @@
         echo "\n  <tr>";
         foreach ($orderedRow as $key => $value) 
         {
-          echo "\n    <td>";
-          if ($key === "albumart") 
+          if (!in_array($key, $exclude_list)) 
           {
-            echo '<a href="'.$value.'"><img src="'.$value.'" alt="Album Art" style="width:60px;height:60px;border:0;"></a>'; 
+            echo "\n    <td>";
+            switch ($key)
+            {
+              case "albumart":
+                echo '<a href="'.$value.'"><img src="'.$value.'" alt="Album Art" style="width:60px;height:60px;border:0;"></a>'; 
+              case "time":
+                echo date("D j M Y",$value)."<br>".date("G:i:s",$value);
+                break;
+              default:
+                echo $value;
+              }          
+            echo "</td>";
           }
-          elseif ($key === "time") 
-          {
-            echo date("D j M Y",$value)."<br>".date("G:i:s",$value);
-          }
-          else 
-          {
-            echo $value;
-          }          
-          echo "</td>";
         } 
         echo "\n  </tr>";
       }
