@@ -27,7 +27,12 @@
       foreach ($logFiles as $filename)
       {
         $channel = explode("_", $filename)[0];
-        echo "<option value=\"$channel\">$channel</option>";
+        if ($channel === $_POST['channel']) 
+        {
+          echo "<option selected='selected' value='$channel'>$channel</option>";
+        }
+        else
+          echo "<option value='$channel'>$channel</option>";
         //"<input type=\"checkbox\" name=\"logfiles\" value=\"$channel\" /> $channel <br>";
       }
     ?>
@@ -37,21 +42,37 @@
     Sorting:
     <select name="sorttype">
       <?php
-        foreach ($sortType as $value) {
-          echo '<option value="'.$value.'">'.$value.'</option>';
-        }
+        foreach ($sortType as $value) 
+        {
+          if ($value === $_POST['sorttype']) 
+          {
+            echo "<option selected='selected' value='$value'>$value</option>";
+          }
+          else
+          {
+            echo "<option value='$value'>$value</option>";
+          }
+        }  
       ?>
     </select>
     <select name="sortdate">
       <?php
-        foreach ($sortDate as $value) {
-          echo '<option value="'.$value.'">'.$value.'</option>';
+        foreach ($sortDate as $value) 
+        {
+          if ($value === $_POST['sortdate']) 
+          {
+            echo "<option selected='selected' value='$value'>$value</option>";
+          }
+          else
+          {
+            echo "<option value='$value'>$value</option>";
+          }
         }
       ?>
     </select>
 
     <!--Input number of entries to display from 1-100-->
-    <br><br>Number of entries to display: <input type="number" name="quantity" min="1" max="100" size="4" value="10">
+    <br><br>Number of entries to display: <input type="number" name="quantity" min="1" max="100" size="4" value="<?php echo isset($_POST['quantity']) ? $_POST['quantity'] : '10' ?>">
 
   	<br><br><input type="submit" value="Get Data">
   </form>
@@ -110,7 +131,7 @@
       }
       else 
       {
-        $nrows = $_POST['quantity'];
+        $nrows = $_POST['quantity']+1;
       }
 
       $order = array('albumart','title','artist','time');
