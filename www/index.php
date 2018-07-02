@@ -17,57 +17,47 @@
     });
   ?>
 
+  <?php
+    function fill_select($name, $items)
+    {
+      foreach ($items as $value) 
+      {
+        if ($name === 'channel')
+        {
+          $value = explode("_", $value)[0];
+        }
+        if ($value === $_POST[$name]) 
+        {
+            echo "<option selected='selected' value='$value'>$value</option>";
+        }
+        else
+        {
+          echo "<option value='$value'>$value</option>";
+        }
+      }
+    }
+  ?>
+
   <form name="sortForm" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">
 
     <!--Create list from available channel data-->
     Select a channel: 
     <select name="channel">
-    <?php
-      #Create check boxes for each of the files listed in $logFiles
-      foreach ($logFiles as $filename)
-      {
-        $channel = explode("_", $filename)[0];
-        if ($channel === $_POST['channel']) 
-        {
-          echo "<option selected='selected' value='$channel'>$channel</option>";
-        }
-        else
-          echo "<option value='$channel'>$channel</option>";
-        //"<input type=\"checkbox\" name=\"logfiles\" value=\"$channel\" /> $channel <br>";
-      }
-    ?>
+      <?php
+        fill_select('channel',$logFiles)
+      ?>
     </select>
     <br><br>
     <!--Select sorting type and range-->
     Sorting:
     <select name="sorttype">
       <?php
-        foreach ($sortType as $value) 
-        {
-          if ($value === $_POST['sorttype']) 
-          {
-            echo "<option selected='selected' value='$value'>$value</option>";
-          }
-          else
-          {
-            echo "<option value='$value'>$value</option>";
-          }
-        }  
+        fill_select('sorttype',$sortType)
       ?>
     </select>
     <select name="sortdate">
       <?php
-        foreach ($sortDate as $value) 
-        {
-          if ($value === $_POST['sortdate']) 
-          {
-            echo "<option selected='selected' value='$value'>$value</option>";
-          }
-          else
-          {
-            echo "<option value='$value'>$value</option>";
-          }
-        }
+        fill_select('sortdate',$sortDate)
       ?>
     </select>
 
@@ -90,7 +80,6 @@
           while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) 
           {
               $logArray[]=array_combine($headers, $data);
-              //array_push($logArray, $data);
           }
           echo "There are ".sizeof($logArray)." log entries for ".$_POST['channel'].".<br>";
           echo "<br> File read from: $filePath <br>";
@@ -121,6 +110,58 @@
     }
   ?>
 
+  <!--Time Filtering-->
+  <?php
+    if (isset($_POST['channel']))
+    {
+      $tmin = 0.0;
+      switch ($_POST['sortdate']) {
+        case 'Hour':
+          $tmin = time() - (60 * 60);
+          break;
+        case 'Day':
+          $tmin = time() - (24 * 60 * 60);
+          break;
+        case 'Week':
+          $tmin = time() - (7* 24 * 60 * 60);
+          break;                  
+        case 'Month':
+          $tmin = time() - (30.4* 24 * 60 * 60);
+          break;
+        case 'Year':
+          $tmin = time() - (365* 24 * 60 * 60);
+          break;
+        case 'All':
+          $tmin = 0; //should actually have this set a thing that makes it skip the filtering step
+          break;
+        default:
+          $tmin = -1; //should actually have this set a thing that makes it skip the filtering step
+          break;
+      }
+      if ($tmin > 0) //checks if data needs to be filtered by timedate and does so if necessary, otherwise $logArray remains untouched
+      {
+        $logFiltered = array_filter($logArray, function ($e) use ($tmin) {return floatval($e['time']) > $tmin;});
+        print_r($logFiltered);
+      }
+    }  
+  ?>
+
+  <!--DATA ANLYSIS-->
+  <?php
+    if (isset($_POST['channel']))
+    {
+      $now = time();
+
+      if ($_POST['sorttype'] === 'Top') 
+      {
+        $counted = array_count_values (array_column($logArray, 'title'));
+        arsort($counted);
+        print_r($counted);
+        #TODO change this so that it serializes the data first, preserving only song metadata, then count those values, append count as a column, and remove duplicates, then sort and display
+      }
+    }
+  ?>
+
   <!--Create table based on sorting/filtering-->
   <?php
     if (isset($_POST['channel']))
@@ -134,11 +175,11 @@
         $nrows = $_POST['quantity']+1;
       }
 
-      $order = array('albumart','title','artist','time');
+      $colOrder = array('albumart','title','artist','time');
       $exclude_list = array('channel','');
 
       //Sort and filter data
-      $sorted = array_orderby($logArray, '', SORT_DESC);
+      $sorted = array_orderby($logArray, 'time', SORT_DESC);
       $sliced = array_slice($sorted, 0, $nrows);
 
       //Create table
@@ -146,15 +187,17 @@
       
       echo "\n  <tr>";
       
-      foreach($order as $val) 
+      //create header row
+      foreach($colOrder as $val) 
       {
         echo "\n    <th>".$val."</th>";
       }
       echo "\n  </tr>";
 
-      for ($i=1; $i < $nrows; $i++) 
+      //create data rows
+      for ($i=1; $i <= $nrows; $i++) 
       {
-        $orderedRow = array_replace(array_flip($order), $sliced[$i]);
+        $orderedRow = array_replace(array_flip($colOrder), $sliced[$i]);
         echo "\n  <tr>";
         foreach ($orderedRow as $key => $value) 
         {
