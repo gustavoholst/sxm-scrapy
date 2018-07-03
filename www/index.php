@@ -17,27 +17,6 @@
     });
   ?>
 
-  <?php
-    function fill_select($name, $items)
-    {
-      foreach ($items as $value) 
-      {
-        if ($name === 'channel')
-        {
-          $value = explode("_", $value)[0];
-        }
-        if ($value === $_POST[$name]) 
-        {
-            echo "<option selected='selected' value='$value'>$value</option>";
-        }
-        else
-        {
-          echo "<option value='$value'>$value</option>";
-        }
-      }
-    }
-  ?>
-
   <form name="sortForm" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">
 
     <!--Create list from available channel data-->
@@ -62,15 +41,49 @@
     </select>
 
     <!--Input number of entries to display from 1-100-->
-    <br><br>Number of entries to display: <input type="number" name="quantity" min="1" max="100" size="4" value="<?php echo isset($_POST['quantity']) ? $_POST['quantity'] : '10' ?>">
+    <br><br>Number of entries to display: <input type="number" name="quantity" min="1" max="250" size="4" value="<?php echo isset($_POST['quantity']) ? $_POST['quantity'] : '10' ?>">
 
   	<br><br><input type="submit" value="Get Data">
   </form>
 
+  <?php
+    if (isset($_POST['channel'])) 
+    {
+      $channel = $_POST['channel'];
+      $logAll = read_log($logDir);
+      $logTrim = time_filter($logAll);
+      create_table($logTrim);
+    }
+  ?>
+
+  <!--Fill site dropdowns based on listed items-->
+  <?php
+    function fill_select($name, $items)
+    {
+      foreach ($items as $value) 
+      {
+        if ($name === 'channel')
+        {
+          $value = explode("_", $value)[0];
+        }
+        if ($value === $_POST[$name]) 
+        {
+            echo "<option selected='selected' value='$value'>$value</option>";
+        }
+        else
+        {
+          echo "<option value='$value'>$value</option>";
+        }
+      }
+    }
+  ?>
+
   <!--Read log file and echo statistics-->
   <?php
-    if (isset($_POST['channel']))
+    function read_log($logDir)
     {
+    //if (isset($_POST['channel']))
+    //{
       echo "You chose: ". $_POST['channel']. "<br>";
       $logArray = array();
       $filePath = $logDir.$_POST['channel']."_log.log";
@@ -85,6 +98,8 @@
           echo "<br> File read from: $filePath <br>";
           fclose($handle);
       }
+    //}
+      return $logArray;
     }
   ?>
 
@@ -112,8 +127,10 @@
 
   <!--Time Filtering-->
   <?php
-    if (isset($_POST['channel']))
+    function time_filter($log)
     {
+    //if (isset($_POST['channel']))
+    //{
       $tmin = 0.0;
       switch ($_POST['sortdate']) {
         case 'Hour':
@@ -140,18 +157,19 @@
       }
       if ($tmin > 0) //checks if data needs to be filtered by timedate and does so if necessary, otherwise $logArray remains untouched
       {
-        $logFiltered = array_filter($logArray, function ($e) use ($tmin) {return floatval($e['time']) > $tmin;});
-        print_r($logFiltered);
+        $logFiltered = array_filter($log, function ($e) use ($tmin) {return floatval($e['time']) > $tmin;});
       }
-    }  
+    //}  
+      return $logFiltered;
+    }
   ?>
 
   <!--DATA ANLYSIS-->
   <?php
-    if (isset($_POST['channel']))
+    function sort_log($log)
     {
-      $now = time();
-
+    //if (isset($_POST['channel']))
+    //{
       if ($_POST['sorttype'] === 'Top') 
       {
         $counted = array_count_values (array_column($logArray, 'title'));
@@ -159,28 +177,35 @@
         print_r($counted);
         #TODO change this so that it serializes the data first, preserving only song metadata, then count those values, append count as a column, and remove duplicates, then sort and display
       }
+    //}
+      return $counted;
     }
   ?>
 
   <!--Create table based on sorting/filtering-->
   <?php
-    if (isset($_POST['channel']))
+    function create_table($data)
     {
-      if ($_POST['quantity'] > sizeof($logArray)) 
+    //if (isset($_POST['channel']))
+    //{
+      
+      //Set number of rows for table based on inputbox or length of log
+      if ($_POST['quantity'] > sizeof($data)) 
       {
-        $nrows = sizeof($logArray);
+        $nrows = sizeof($data);
       }
       else 
       {
         $nrows = $_POST['quantity']+1;
       }
 
+      //Set column order for table and excludes for table
       $colOrder = array('albumart','title','artist','time');
       $exclude_list = array('channel','');
 
       //Sort and filter data
-      $sorted = array_orderby($logArray, 'time', SORT_DESC);
-      $sliced = array_slice($sorted, 0, $nrows);
+      $sorted = array_orderby($data, 'time', SORT_DESC);
+      $sliced = array_slice($sorted, 0, $nrows-1);
 
       //Create table
       echo '<center><table>';
@@ -195,7 +220,7 @@
       echo "\n  </tr>";
 
       //create data rows
-      for ($i=1; $i <= $nrows; $i++) 
+      for ($i=0; $i <= $nrows; $i++) 
       {
         $orderedRow = array_replace(array_flip($colOrder), $sliced[$i]);
         echo "\n  <tr>";
@@ -220,6 +245,7 @@
         echo "\n  </tr>";
       }
       echo "</table></center>";
+    //}
     }
   ?>
   
