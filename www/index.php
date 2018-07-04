@@ -82,8 +82,6 @@
   <?php
     function read_log($logDir)
     {
-    //if (isset($_POST['channel']))
-    //{
       echo "You chose: ". $_POST['channel']. "<br>";
       $logArray = array();
       $filePath = $logDir.$_POST['channel']."_log.log";
@@ -98,7 +96,6 @@
           echo "<br> File read from: $filePath <br>";
           fclose($handle);
       }
-    //}
       return $logArray;
     }
   ?>
@@ -129,8 +126,6 @@
   <?php
     function time_filter($log)
     {
-    //if (isset($_POST['channel']))
-    //{
       $tmin = 0.0;
       switch ($_POST['sortdate']) {
         case 'Hour':
@@ -159,7 +154,10 @@
       {
         $logFiltered = array_filter($log, function ($e) use ($tmin) {return floatval($e['time']) > $tmin;});
       }
-    //}  
+      else
+      {
+        $logFiltered = $log;
+      }
       return $logFiltered;
     }
   ?>
@@ -168,8 +166,6 @@
   <?php
     function sort_log($log)
     {
-    //if (isset($_POST['channel']))
-    //{
       if ($_POST['sorttype'] === 'Top') 
       {
         $counted = array_count_values (array_column($logArray, 'title'));
@@ -177,22 +173,20 @@
         print_r($counted);
         #TODO change this so that it serializes the data first, preserving only song metadata, then count those values, append count as a column, and remove duplicates, then sort and display
       }
-    //}
       return $counted;
     }
   ?>
 
+  <!--TODO: remove weird SXM tags from list-->
+
   <!--Create table based on sorting/filtering-->
   <?php
-    function create_table($data)
+    function create_table($log)
     {
-    //if (isset($_POST['channel']))
-    //{
-      
       //Set number of rows for table based on inputbox or length of log
-      if ($_POST['quantity'] > sizeof($data)) 
+      if ($_POST['quantity'] > sizeof($log)) 
       {
-        $nrows = sizeof($data);
+        $nrows = sizeof($log);
       }
       else 
       {
@@ -204,7 +198,7 @@
       $exclude_list = array('channel','');
 
       //Sort and filter data
-      $sorted = array_orderby($data, 'time', SORT_DESC);
+      $sorted = array_orderby($log, 'time', SORT_DESC);
       $sliced = array_slice($sorted, 0, $nrows-1);
 
       //Create table
@@ -245,7 +239,6 @@
         echo "\n  </tr>";
       }
       echo "</table></center>";
-    //}
     }
   ?>
   
