@@ -50,9 +50,10 @@
     if (isset($_POST['channel'])) 
     {
       $channel = $_POST['channel'];
-      $logAll = read_log($logDir);
+      $logAll = read_log($logDir);   
       $logTrim = time_filter($logAll);
-      create_table($logTrim);
+      $logVal = item_filter($logTrim);
+      create_table($logVal);
     }
   ?>
 
@@ -162,6 +163,21 @@
     }
   ?>
 
+  <!--Item Filtering (channel tags etc that get mistaken for songs)-->
+  <?php
+    function item_filter($log)
+    {
+      $excludeItems = array('#','@','call now to geT on the air','877-MY-HITS-1','fb.com/altnation','Wednesday DL',"Today's Dance Hits+Remixes","alt nation's");
+      //array('call now to geT on the air', '877-MY-HITS-1','#Hits1inHollywood','@SiriusXMHits1','fb.com/altnation','Wednesday DL','#YouTubeElectro15','@sxmElectro #bpm',"Today's Dance Hits+Remixes",'#bpm','#bpmBreaker @sxmElectro','on #bpm @sxmElectro','#TheDrop @sxmElectro','#TheDrop','@ridanaser','@djbenharvey','@SteveAoki','@Tritonal @sxmElectro','#AokisHouse','#bpmMix','@altnation','@radiomadison','on @altnation');
+      $logFiltered = array_filter($log, function ($e) use ($excludeItems) {return (count(array_filter($excludeItems, function ($el) use ($e) {return (strpos($e['title'], $el) !== false);})) == 0 && count(array_filter($excludeItems,function ($el2) use ($e) {return (strpos($e['artist'], $el2) !== false);})) == 0);});
+      //return !(in_array($e['title'], $excludeItems) || in_array($e['artist'], $excludeItems));
+     
+      return $logFiltered;
+    }
+  ?>
+
+
+
   <!--DATA ANLYSIS-->
   <?php
     function sort_log($log)
@@ -194,8 +210,8 @@
       }
 
       //Set column order for table and excludes for table
-      $colOrder = array('albumart','title','artist','time');
-      $exclude_list = array('channel','');
+      $colOrder = array('title','artist','time');
+      $excludeCols = array('channel','','albumart');
 
       //Sort and filter data
       $sorted = array_orderby($log, 'time', SORT_DESC);
@@ -220,7 +236,7 @@
         echo "\n  <tr>";
         foreach ($orderedRow as $key => $value) 
         {
-          if (!in_array($key, $exclude_list)) 
+          if (!in_array($key, $excludeCols)) 
           {
             echo "\n    <td>";
             switch ($key)
@@ -246,7 +262,7 @@
   <footer>
     <?php
       // outputs e.g. 'Last modified: March 04 1998 20:43:59.'
-      echo "Last modified: " . date ("d F Y H:i:s.", filemtime('D:/Documents/Websites/SXM/sxm-scrapy/www/index.php'));
+      echo "Site last modified: " . date ("d F Y H:i:s.", filemtime('D:/Documents/Websites/SXM/sxm-scrapy/www/index.php'));
     ?>
   </footer>
 
