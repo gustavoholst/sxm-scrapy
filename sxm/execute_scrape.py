@@ -55,7 +55,7 @@ def update_log(song):
 		nrows = len(log.index)
 		prev_songs = []
 		for i in range(max(-3,-1*nrows),0):
-			if log.iloc[nrows+i]['title'] == song['title']:
+			if str(log.iloc[nrows+i]['title']) == str(song['title']):
 				match = 1
 				break
 			else:

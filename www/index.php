@@ -8,9 +8,9 @@
   <?php
     #Set variables
     $logDir="D:/Documents/Websites/SXM/sxm-scrapy/sxm/channel_logs/";
-    $sortType = array('Recent','Top','Newly Added','Rising');
+    $sortType = array('Recently Played','Top','Newly Added','Rising');
     $sortDate = array('Week','Hour','Day','Month','Year','All');
-
+    ##TODO: Ascending/Descending
     #Create array of log files from directory
     $logFiles = array_filter(scandir($logDir), function($item) {
       return !is_dir($logDir . $item);
@@ -41,7 +41,7 @@
     </select>
 
     <!--Input number of entries to display from 1-100-->
-    <br><br>Number of entries to display: <input type="number" name="quantity" min="1" max="250" size="4" value="<?php echo isset($_POST['quantity']) ? $_POST['quantity'] : '10' ?>">
+    <br><br>Number of entries to display: <input type="number" name="quantity" min="1" max="500" size="4" value="<?php echo isset($_POST['quantity']) ? $_POST['quantity'] : '10' ?>">
 
   	<br><br><input type="submit" value="Get Data">
   </form>
@@ -53,6 +53,8 @@
       $logAll = read_log($logDir);   
       $logTrim = time_filter($logAll);
       $logVal = item_filter($logTrim);
+
+      echo $_POST['channel']." has played ".sizeof($logVal)." songs this ".strtolower($_POST['sortdate']).".<br>";
       create_table($logVal);
     }
   ?>
@@ -83,9 +85,10 @@
   <?php
     function read_log($logDir)
     {
-      echo "You chose: ". $_POST['channel']. "<br>";
+      //echo "You chose: ". $_POST['channel']. "<br>";
       $logArray = array();
       $filePath = $logDir.$_POST['channel']."_log.log";
+      echo "File read from: $filePath <br>";
       if (($handle = fopen($filePath, "r")) !== FALSE) 
       {
           $headers = fgetcsv($handle, 1000, ",");
@@ -93,8 +96,7 @@
           {
               $logArray[]=array_combine($headers, $data);
           }
-          echo "There are ".sizeof($logArray)." log entries for ".$_POST['channel'].".<br>";
-          echo "<br> File read from: $filePath <br>";
+          echo "There are ".sizeof($logArray)." entries in the ".$_POST['channel']." log.<br>";
           fclose($handle);
       }
       return $logArray;
@@ -167,11 +169,8 @@
   <?php
     function item_filter($log)
     {
-      $excludeItems = array('#','@','call now to geT on the air','877-MY-HITS-1','fb.com/altnation','Wednesday DL',"Today's Dance Hits+Remixes","alt nation's");
-      //array('call now to geT on the air', '877-MY-HITS-1','#Hits1inHollywood','@SiriusXMHits1','fb.com/altnation','Wednesday DL','#YouTubeElectro15','@sxmElectro #bpm',"Today's Dance Hits+Remixes",'#bpm','#bpmBreaker @sxmElectro','on #bpm @sxmElectro','#TheDrop @sxmElectro','#TheDrop','@ridanaser','@djbenharvey','@SteveAoki','@Tritonal @sxmElectro','#AokisHouse','#bpmMix','@altnation','@radiomadison','on @altnation');
+      $excludeItems = array('#','@','call now to geT on the air','877-MY-HITS-1','fb.com/altnation','Wednesday DL',"Today's Dance Hits+Remixes","alt nation's",'siriusxm.com/hits1');
       $logFiltered = array_filter($log, function ($e) use ($excludeItems) {return (count(array_filter($excludeItems, function ($el) use ($e) {return (strpos($e['title'], $el) !== false);})) == 0 && count(array_filter($excludeItems,function ($el2) use ($e) {return (strpos($e['artist'], $el2) !== false);})) == 0);});
-      //return !(in_array($e['title'], $excludeItems) || in_array($e['artist'], $excludeItems));
-     
       return $logFiltered;
     }
   ?>
@@ -188,16 +187,20 @@
         arsort($counted);
         print_r($counted);
         #TODO change this so that it serializes the data first, preserving only song metadata, then count those values, append count as a column, and remove duplicates, then sort and display
+        return $counted;
       }
-      return $counted;
+
+
+      elseif ($_POST['sorttype'] === 'Recently Played') 
+      {
+        return array_orderby($log, 'time', SORT_DESC);
+      }
     }
   ?>
 
-  <!--TODO: remove weird SXM tags from list-->
 
-  <!--Create table based on sorting/filtering-->
   <?php
-    function create_table($log)
+    function select_table_rows($log)
     {
       //Set number of rows for table based on inputbox or length of log
       if ($_POST['quantity'] > sizeof($log)) 
@@ -208,14 +211,23 @@
       {
         $nrows = $_POST['quantity']+1;
       }
+      return array($nrows, array_slice($log, 0, $nrows-1));
+    }
+  ?>
+  <!--TODO: remove weird SXM tags from list-->
+
+  <!--Create table based on sorting/filtering-->
+  <?php
+    function create_table($log)
+    {
 
       //Set column order for table and excludes for table
       $colOrder = array('title','artist','time');
       $excludeCols = array('channel','','albumart');
 
       //Sort and filter data
-      $sorted = array_orderby($log, 'time', SORT_DESC);
-      $sliced = array_slice($sorted, 0, $nrows-1);
+      $sorted = sort_log($log);
+      list($nrows, $sliced) = select_table_rows($sorted);
 
       //Create table
       echo '<center><table>';
