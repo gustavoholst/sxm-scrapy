@@ -9,7 +9,7 @@
     #Set variables
     $logDir="D:/Documents/Websites/SXM/sxm-scrapy/sxm/channel_logs/";
     $sortType = array('Recently Played','Top','Newly Added','Rising');
-    $sortDate = array('Week','Hour','Day','Month','Year','All');
+    $sortDate = array('Week','Hour','Day','Month','Year','All'); #TODO replace these date filters to just have TOP:DATE since top is the only one that cares
     ##TODO: Ascending/Descending
     #Create array of log files from directory
     $logFiles = array_filter(scandir($logDir), function($item) {
@@ -50,10 +50,10 @@
     if (isset($_POST['channel'])) 
     {
       $channel = $_POST['channel'];
-      $logAll = read_log($logDir);   
+      $logAll = read_log($logDir);
+      //count_plays($logAll);   
       $logTrim = time_filter($logAll);
       $logVal = item_filter($logTrim);
-
       echo $_POST['channel']." has played ".sizeof($logVal)." songs this ".strtolower($_POST['sortdate']).".<br>";
       create_table($logVal);
     }
@@ -169,31 +169,61 @@
   <?php
     function item_filter($log)
     {
-      $excludeItems = array('#','@','call now to geT on the air','877-MY-HITS-1','fb.com/altnation','Wednesday DL',"Today's Dance Hits+Remixes","alt nation's",'siriusxm.com/hits1');
+      $excludeItems = array('#','@','call now to geT on the air','877-MY-HITS-1','fb.com/altnation','Wednesday DL',"Today's Dance Hits+Remixes","alt nation's",'siriusxm.com/hits1',"Today's Biggest",'Dance Hits+Remixes','WeekendCountdown','Advanced Placement');
       $logFiltered = array_filter($log, function ($e) use ($excludeItems) {return (count(array_filter($excludeItems, function ($el) use ($e) {return (strpos($e['title'], $el) !== false);})) == 0 && count(array_filter($excludeItems,function ($el2) use ($e) {return (strpos($e['artist'], $el2) !== false);})) == 0);});
       return $logFiltered;
     }
   ?>
 
 
+  <!--COUNT PLAYS-->
+  <!--Adds count column to data log for all songs, does not remove duplicates-->
+  <?php
+    function count_plays($log)
+    {
+      $count_array = [];
+      foreach ($log as $value)
+      {
+        $count_array[] = $value['artist'].'---'.$value['title'];
+      }
+      $counted = array_count_values($count_array);
+
+      #TODO: remove duplicates to reduce time to add counts
+      foreach ($log as &$song)
+      {
+        foreach ($counted as $key => $count) 
+        {
+          if ($song['artist'].'---'.$song['title'] === $key) 
+          {
+            $song['count'] = $count;
+          }
+        }
+      }
+      print_r(array_orderby($log,'count', SORT_DESC));
+    }
+  ?>
+
 
   <!--DATA ANLYSIS-->
   <?php
-    function sort_log($log)
+    function sort_log($log) #TODO: move time_filter and item_filter to in here
     {
-      if ($_POST['sorttype'] === 'Top') 
-      {
-        $counted = array_count_values (array_column($logArray, 'title'));
-        arsort($counted);
-        print_r($counted);
-        #TODO change this so that it serializes the data first, preserving only song metadata, then count those values, append count as a column, and remove duplicates, then sort and display
-        return $counted;
-      }
-
-
-      elseif ($_POST['sorttype'] === 'Recently Played') 
+      if ($_POST['sorttype'] === 'Recently Played') 
       {
         return array_orderby($log, 'time', SORT_DESC);
+      }
+
+      elseif ($_POST['sorttype'] === 'Newly Added') 
+      {
+        
+      }
+      elseif ($_POST['sorttype'] === 'Rising') 
+      {
+        #TODO time_filter here x times for each of x days and then compare counts over time for each song
+      }
+      elseif ($_POST['sorttype'] === 'Top') 
+      {
+        count_plays($log);
       }
     }
   ?>
@@ -214,7 +244,7 @@
       return array($nrows, array_slice($log, 0, $nrows-1));
     }
   ?>
-  <!--TODO: remove weird SXM tags from list-->
+
 
   <!--Create table based on sorting/filtering-->
   <?php
@@ -226,7 +256,7 @@
       $excludeCols = array('channel','','albumart');
 
       //Sort and filter data
-      $sorted = sort_log($log);
+      $sorted = sort_log($log); //TODO: do i really wanna do this here?
       list($nrows, $sliced) = select_table_rows($sorted);
 
       //Create table
