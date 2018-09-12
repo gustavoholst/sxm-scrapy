@@ -10,7 +10,11 @@
     $logDir="D:/Documents/Websites/SXM/sxm-scrapy/sxm/channel_logs/";
     $sortType = array('Recently Played','Top','Newly Added','Rising');
     $sortDate = array('Week','Hour','Day','Month','Year','All'); #TODO replace these date filters to just have TOP:DATE since top is the only one that cares
-    ##TODO: Ascending/Descending
+    
+    #TODO: Ascending/Descending
+
+    #TODO: save new columns to data file and analyze only new lines
+
     #Create array of log files from directory
     $logFiles = array_filter(scandir($logDir), function($item) {
       return !is_dir($logDir . $item);
@@ -231,7 +235,7 @@
 
   <!--DATA ANLYSIS-->
   <?php
-    function sort_log($log) #TODO: move time_filter and item_filter to in here
+    function sort_log($log) #TODO: move analysis steps into here?
     {
       switch ($_POST['sorttype']) 
       {
@@ -239,12 +243,13 @@
           return array_orderby($log, 'time', SORT_DESC);
           break;
         case 'Newly Added':
-
+          #TODO: add function to add column for first played date
           break;
         case 'Rising':
-          
+          #TODO: add ability to do counts per week and see if counts is increasing
           break;
         case 'Top':
+          //$log = remove_duplicates($log);
           return array_orderby($log, 'count', SORT_DESC);
           break;
       }
