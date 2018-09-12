@@ -47,14 +47,38 @@
   </form>
 
   <?php
+    $t0 = microtime(TRUE);
     if (isset($_POST['channel'])) 
     {
       $channel = $_POST['channel'];
+
       $logAll = read_log($logDir);
+      $t1 = microtime(TRUE);
+      $td = $t1 - $t0;
+      echo "File Read in ".number_format($td,3)." seconds. <br>";
+      
       $logTrim = time_filter($logAll);
+      $t2 = microtime(TRUE);
+      $td = $t2 - $t1;      
+      echo "Time filtered in ".number_format($td,3)." seconds. <br>";
+      
       $logVal = item_filter($logTrim);
+      $t3 = microtime(TRUE);
+      $td = $t3 - $t2;      
+      echo "Stupidity filtered in ".number_format($td,3)." seconds. <br>";
+      
       $logCount = count_plays($logVal);
+      $t4 = microtime(TRUE);
+      $td = $t4 - $t3;      
+      echo "Plays counted in ".number_format($td,3)." seconds. <br>";      
+      
       $logSort = sort_log($logCount);
+      $t5 = microtime(TRUE);
+      $td = $t5 - $t4;
+      echo "Data sorted in ".number_format($td,3)." seconds. <br>";
+
+      $tf = $t5 - $t0;      
+      echo "Total time: ".number_format($tf,3)." seconds <br>";
       echo $_POST['channel']." has played ".sizeof($logVal)." songs this ".strtolower($_POST['sortdate']).".<br>";
       create_table($logSort);
     }
@@ -131,7 +155,8 @@
     function time_filter($log)
     {
       $tmin = 0.0;
-      switch ($_POST['sortdate']) {
+      switch ($_POST['sortdate']) 
+      {
         case 'Hour':
           $tmin = time() - (60 * 60);
           break;
@@ -208,22 +233,20 @@
   <?php
     function sort_log($log) #TODO: move time_filter and item_filter to in here
     {
-      if ($_POST['sorttype'] === 'Recently Played') 
+      switch ($_POST['sorttype']) 
       {
-        return array_orderby($log, 'time', SORT_DESC);
-      }
+        case 'Recently Played':
+          return array_orderby($log, 'time', SORT_DESC);
+          break;
+        case 'Newly Added':
 
-      elseif ($_POST['sorttype'] === 'Newly Added') 
-      {
-        
-      }
-      elseif ($_POST['sorttype'] === 'Rising') 
-      {
-        #TODO time_filter here x times for each of x days and then compare counts over time for each song
-      }
-      elseif ($_POST['sorttype'] === 'Top') 
-      {
-        return array_orderby($log, 'count', SORT_DESC);
+          break;
+        case 'Rising':
+          
+          break;
+        case 'Top':
+          return array_orderby($log, 'count', SORT_DESC);
+          break;
       }
     }
   ?>
