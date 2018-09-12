@@ -51,11 +51,12 @@
     {
       $channel = $_POST['channel'];
       $logAll = read_log($logDir);
-      //count_plays($logAll);   
       $logTrim = time_filter($logAll);
       $logVal = item_filter($logTrim);
+      $logCount = count_plays($logVal);
+      $logSort = sort_log($logCount);
       echo $_POST['channel']." has played ".sizeof($logVal)." songs this ".strtolower($_POST['sortdate']).".<br>";
-      create_table($logVal);
+      create_table($logSort);
     }
   ?>
 
@@ -184,11 +185,9 @@
       $count_array = [];
       foreach ($log as $value)
       {
-        $count_array[] = $value['artist'].'---'.$value['title'];
+        $count_array[$value['']] =  $value['artist'].'---'.$value['title'];
       }
       $counted = array_count_values($count_array);
-
-      #TODO: remove duplicates to reduce time to add counts
       foreach ($log as &$song)
       {
         foreach ($counted as $key => $count) 
@@ -199,7 +198,8 @@
           }
         }
       }
-      print_r(array_orderby($log,'count', SORT_DESC));
+      return $log;
+      //print_r(array_orderby($log,'count', SORT_DESC));
     }
   ?>
 
@@ -223,7 +223,7 @@
       }
       elseif ($_POST['sorttype'] === 'Top') 
       {
-        count_plays($log);
+        return array_orderby($log, 'count', SORT_DESC);
       }
     }
   ?>
@@ -252,13 +252,12 @@
     {
 
       //Set column order for table and excludes for table
-      $colOrder = array('title','artist','time');
+      $colOrder = array('title','artist','time','count');
       $excludeCols = array('channel','','albumart');
 
-      //Sort and filter data
-      $sorted = sort_log($log); //TODO: do i really wanna do this here?
-      list($nrows, $sliced) = select_table_rows($sorted);
-
+      //Select data for table
+      list($nrows, $sliced) = select_table_rows($log);
+      
       //Create table
       echo '<center><table>';
       
