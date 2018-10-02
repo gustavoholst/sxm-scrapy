@@ -13,7 +13,7 @@
     
     #TODO: Ascending/Descending
 
-    #TODO: save new columns to data file and analyze only new lines
+    #TODO: add background analysis so that site doesn't have to. should have columns for plays, most recent play, first play, etc. should replace raw data sheets.
 
     #Create array of log files from directory
     $logFiles = array_filter(scandir($logDir), function($item) {
@@ -217,23 +217,39 @@
         $count_array[$value['']] =  $value['artist'].'---'.$value['title'];
       }
       $counted = array_count_values($count_array);
-      foreach ($log as &$song)
+      //$log = array_orderby($log, 'time', SORT_DESC);
+      foreach ($counted as $key => $count)
       {
-        foreach ($counted as $key => $count) 
+        $first = 1;
+        foreach ($log as &$song) 
         {
           if ($song['artist'].'---'.$song['title'] === $key) 
           {
             $song['count'] = $count;
+            $song['keep'] = $first;
+            if ($first == 1)
+            {
+              $first = 0;
+            }
           }
         }
       }
-      return $log;
       //print_r(array_orderby($log,'count', SORT_DESC));
+      return $log;
     }
   ?>
 
 
-  <!--DATA ANLYSIS-->
+  <?php
+    function remove_duplicates($log) #TODO: move analysis steps into here?
+    {
+      $logDedup = array_filter($log, function ($e) {return $e['keep'] == 1;});
+      return $logDedup;
+    }
+  ?>
+
+
+  <!--SORT FOR TABLE-->
   <?php
     function sort_log($log) #TODO: move analysis steps into here?
     {
@@ -249,7 +265,7 @@
           #TODO: add ability to do counts per week and see if counts is increasing
           break;
         case 'Top':
-          //$log = remove_duplicates($log);
+          $log = remove_duplicates($log);
           return array_orderby($log, 'count', SORT_DESC);
           break;
       }
@@ -281,7 +297,7 @@
 
       //Set column order for table and excludes for table
       $colOrder = array('title','artist','time','count');
-      $excludeCols = array('channel','','albumart');
+      $excludeCols = array('channel','','albumart','keep');
 
       //Select data for table
       list($nrows, $sliced) = select_table_rows($log);
